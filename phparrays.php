@@ -50,12 +50,29 @@
             echo $cars[1][0]." ".$cars[1][1]." ".$cars[1][2]."<br>";
             echo $cars[2][0]." ".$cars[2][1]." ".$cars[2][2]."<br>";
             echo $cars[3][0]." ".$cars[3][1]." ".$cars[3][2]."<br>";
-
+            echo "<br>";
             //ex 2
-
+                        //  0   1     2
             $multi = array (7,"cat","dog",
+            // 3    0     1     2
             array("sky","sun","cloud"));
-            echo $multi[3][1]
+            echo $multi[3][1]."<br>";
+            print_r($multi);
+            echo "<br>";
+            echo "<br>";
+
+            //Foreach
+            $x = array("one","two","three");
+            foreach($x as $value){
+
+                    echo $value."</br>";
+            }
+
+            $colors = array('red','blue','yellow');
+            foreach($colors as $color){
+
+                    echo "Do you like $color?\n";
+            }
         ?>
     </form>
 </body>

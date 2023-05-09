@@ -68,7 +68,7 @@
                     echo $value."</br>";
             }
 
-            $colors = array('red','blue','yellow');
+            $colors = array('red','green'.'blue','yellow');
             foreach($colors as $color){
 
                     echo "Do you like $color?\n";
